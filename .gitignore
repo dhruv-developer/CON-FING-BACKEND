@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python-specific
+*.log
+*.sqlite3
+*.pkl
+*.db
+
+# Test / debug / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# FastAPI / Uvicorn logs
+logs/
+*.log
+
+# Streamlit or Stream cache (if used later)
+.streamlit/
+
+# Mongo dump files
+dump/
+*.bson
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore files for reports or generated PDFs
+*.pdf
+*.json
+*.zip
+
+# System files
+Thumbs.db
+ehthumbs.db
